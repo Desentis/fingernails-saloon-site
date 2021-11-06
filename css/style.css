@@ -5,6 +5,7 @@
   max-width: 1440px;
   margin: auto;
 }
+
 .header-contacts {
   height: 50px;
   background-color: #570026;
@@ -27,6 +28,7 @@
 .social-link {
   margin-right: 20px;
 }
+
 .header-menu {
   height: 90px;
   background-color: #ffffff;
@@ -34,6 +36,7 @@
   align-items: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: relative;
+  z-index: 3;
 }
 .logo {
   position: absolute;
@@ -63,4 +66,219 @@
   font-weight: normal;
   font-size: 48px;
   color: #570026;
+}
+
+.title-info {
+  max-width: 540px;
+}
+.title-caption {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #000000;
+}
+.title-description {
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #433f3f;
+}
+.title-subdescription {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #433f3f;
+}
+.title-delim {
+  width: 150px;
+  height: 2px;
+  background: #570026;
+}
+.title1th {
+  height: 884px;
+  background: url(../img/titles/title1th.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.title1th-section-left {
+  height: 69px;
+  position: absolute;
+  left: 107px;
+  bottom: 87px;
+}
+.title1th-section-right {
+  height: 208px;
+  position: absolute;
+  right: 86px;
+  top: 112px;
+}
+.title2th {
+  height: 442px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.title2th-image {
+  margin-left: 281px;
+  margin-right: auto;
+  box-shadow: -20px 20px 0px #570026;
+}
+.title2th-section-info {
+  margin-left: auto;
+  margin-right: 150px;
+}
+.title3th {
+  height: 442px;
+  display: flex;
+  align-items: center;
+  background: #f3dfe2;
+}
+.title3th-section-left {
+  width: 720px;
+  height: 100%;
+  background: url(../img/titles/title3th-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title3th-section-right {
+  width: 720px;
+  position: relative;
+}
+.title3th-services {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title3th-service {
+  width: 360px;
+  height: 221px;
+  text-align: center;
+}
+.title3th-service-description {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  color: #433f3f;
+}
+.title3th-service-image {
+  width: 129px;
+  margin-top: 32px;
+}
+.title3th-delim-vertical {
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  top: 0;
+  left: calc(50% - 1px);
+  background: #570026;
+}
+.title3th-delim-horizontal {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: calc(50% - 1px);
+  left: 0;
+  background: #570026;
+}
+.title4th {
+  height: 884px;
+  background: url(../img/titles/title4th.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.title4th-section-info {
+  margin-left: 209px;
+}
+
+.title-specialists {
+  padding-top: 70px;
+  height: 884px;
+  background: #ffffff;
+}
+.title-specialists-caption {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 330px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #000000;
+}
+.title-specialists-delim {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 220px;
+  height: 2px;
+  background: #570026;
+}
+.specialist-cards-wrapper {
+  margin-left: 0;
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+}
+.specialist-cards {
+  margin-left: -40px;
+  display: flex;
+}
+.specialist-card {
+  margin-left: 40px;
+  width: 340px;
+  height: 480px;
+}
+.card-image-border {
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+  height: 400px;
+  border: 1px solid #570026;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-image {
+  margin: 10px;
+  width: 320px;
+  height: 380px;
+  border: 1px solid #570026;
+  object-fit: cover;
+}
+.card-caption {
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #433f3f;
+}
+.card-description {
+  margin-left: 20px;
+  margin-top: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #433f3f;
 }
