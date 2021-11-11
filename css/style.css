@@ -22,10 +22,10 @@
   font-size: 15px;
   color: #ffffff;
 }
-.social-links {
+.header-social-links {
   margin-right: -20px;
 }
-.social-link {
+.header-social-link {
   margin-right: 20px;
 }
 
@@ -234,7 +234,7 @@
 .specialist-cards-wrapper {
   margin-left: 0;
   margin-top: 50px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 .specialist-cards {
@@ -281,4 +281,110 @@
   font-weight: normal;
   font-size: 20px;
   color: #433f3f;
+}
+
+.footer-main {
+  height: 350px;
+  background: #f3dfe2;
+  display: flex;
+  align-items: center;
+}
+
+.about-company {
+  margin-left: 86px;
+  padding-top: 48px;
+  width: 250px;
+  height: 100%;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.footer-company-logotip {
+  margin-left: 24px;
+  font-family: Cormorant SC;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #570026;
+}
+
+.company-info {
+  margin-left: 15px;
+  margin-top: 23px;
+  display: grid;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #570026;
+}
+
+.footer-social-links {
+  margin-left: -5px;
+  margin-top: 16px;
+}
+
+.footer-social-link {
+  margin-left: 20px;
+}
+
+.footer-nav-wrapper {
+  padding-left: 94px;
+  padding-top: 28px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.footer-nav-block {
+  margin-left: 136px;
+}
+
+.footer-nav-links {
+  display: grid;
+}
+
+.footer-nav-title {
+  margin-left: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: #000000;
+}
+
+.footer-nav-delim {
+  margin: 10px;
+  width: 280px;
+  height: 2px;
+  background: #570026;
+}
+
+.footer-nav-link {
+  margin-left: 16px;
+  margin-top: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+}
+
+.footer-licence {
+  height: 50px;
+  background: #570026;
+  display: flex;
+  align-items: center;
+}
+
+.footer-licence-text {
+  margin: auto;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
 }
