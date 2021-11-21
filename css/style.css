@@ -58,7 +58,7 @@ body {
   margin-right: auto;
   margin-top: 4px;
   margin-bottom: 0;
-  width: calc( 100% - 5px );
+  width: calc(100% - 5px);
   height: 2px;
   background: #570026;
 }
@@ -215,6 +215,19 @@ body {
 }
 .title4th-section-info {
   margin-left: 209px;
+}
+
+.appointment-title {
+  height: 516px;
+  position: relative;
+  background: url(../img/appointment/titles/title.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.appointment-title-info {
+  position: absolute;
+  left: 74px;
+  bottom: 100px;
 }
 
 .title-specialists {
@@ -399,4 +412,177 @@ body {
   font-weight: normal;
   font-size: 20px;
   color: #ffffff;
+}
+
+.appointment-caption-wrapper {
+  margin-bottom: 28px;
+}
+.appointment-caption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: #000000;
+}
+.appointment-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+}
+.appointment-title-delim {
+  width: 138px;
+  height: 2px;
+  background: #570026;
+}
+.appointment-wrapper {
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+}
+.appointment-blocks {
+  margin-left: 52px;
+  margin-right: auto;
+  margin-top: -52px;
+  margin-bottom: 52px;
+  padding-left: 40px;
+  padding-top: 34px;
+  width: 868px;
+  z-index: 10;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 8px 5px #e5e5e5;
+}
+.appointment-block {
+  margin-bottom: 36px;
+}
+.appointment-choose-saloon {
+  padding: 20px 32px;
+  max-width: max-content;
+  background: #ffffff;
+  border: 1px solid #570026;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.appointment-choose-saloon-icon {
+  margin-left: 32px;
+}
+.appointment-contacts {
+  margin-left: 32px;
+}
+.appointment-contact-group {
+  display: flex;
+  align-items: center;
+}
+.appointment-contact-icon {
+  margin-right: 16px;
+}
+.workinghours-wrapper {
+  margin-left: 32px;
+  max-width: 460px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.workinghours-group {
+  margin-right: 52px;
+  margin-bottom: 12px;
+  width: 175px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.workinghours-day-of-week {
+  margin-right: 22px;
+  padding: 3px 9px;
+  background: #ffffff;
+  border: 1px solid #570026;
+  border-radius: 5px;
+}
+.workinghours-group-order1 {
+  order: 1;
+}
+.workinghours-group-order2 {
+  order: 2;
+}
+.workinghours-group-order3 {
+  order: 3;
+}
+.workinghours-group-order4 {
+  order: 4;
+}
+.workinghours-group-order5 {
+  order: 5;
+}
+.workinghours-group-order6 {
+  order: 6;
+}
+.workinghours-group-order7 {
+  order: 7;
+}
+.specialists-block {
+  margin-left: auto;
+  margin-right: 52px;
+  margin-top: -52px;
+  margin-bottom: 52px;
+  width: 438px;
+  height:max-content;
+  padding: 22px;
+  z-index: 10;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 8px 5px #e5e5e5;
+}
+.specialists-caption-wrapper {
+  margin-bottom: 12px;
+  text-align: center;
+}
+.specialists-caption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  color: #570026;
+}
+.specialists-delim {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #570026;
+}
+.specialist-minicard {
+  margin-top: 22px;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 4px 4px 8px 5px #e5e5e5;
+}
+.specialist-picture {
+  margin-left: 30px;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 1px solid #570026;
+}
+.specialist-minicard-info {
+  margin-left: 20px;
+}
+.specialist-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+}
+.specialist-reviews {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #000000;
 }
