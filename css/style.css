@@ -117,7 +117,7 @@ body {
 }
 .title1th {
   height: 884px;
-  background: url(../img/titles/title1th.jpg);
+  background: url(../img/main/titles/title1th.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -158,7 +158,7 @@ body {
 .title3th-section-left {
   width: 720px;
   height: 100%;
-  background: url(../img/titles/title3th-image.jpg);
+  background: url(../img/main/titles/title3th-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -207,7 +207,7 @@ body {
 }
 .title4th {
   height: 884px;
-  background: url(../img/titles/title4th.jpg);
+  background: url(../img/main/titles/title4th.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
