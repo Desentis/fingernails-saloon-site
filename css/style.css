@@ -53,8 +53,14 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.link {
-  text-decoration: none;
+.header-link-indicator {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4px;
+  margin-bottom: 0;
+  width: calc( 100% - 5px );
+  height: 2px;
+  background: #570026;
 }
 .header-link {
   font-family: Roboto;
@@ -69,6 +75,9 @@ body {
   font-weight: normal;
   font-size: 48px;
   color: #570026;
+}
+.link {
+  text-decoration: none;
 }
 
 .title-info {
