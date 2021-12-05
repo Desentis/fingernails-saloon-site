@@ -526,7 +526,7 @@ body {
   margin-top: -52px;
   margin-bottom: 52px;
   width: 438px;
-  height:max-content;
+  height: max-content;
   padding: 22px;
   z-index: 10;
   background-color: #ffffff;
@@ -585,4 +585,137 @@ body {
   font-weight: normal;
   font-size: 15px;
   color: #000000;
+}
+.rating-stars {
+  display: flex;
+}
+.rating-star {
+  margin: 0;
+}
+
+.reviews-title-block {
+  height: 517px;
+  background: url(../img/reviews/title.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.reviews-title-text-wrapper {
+  position: absolute;
+  left: 74px;
+  bottom: 105px;
+}
+.reviews-title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  color: #000000;
+}
+.reviews-title-delim {
+  width: 138px;
+  height: 2px;
+  background: #570026;
+}
+.reviews-main-block-wrapper {
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-bottom: 56px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.reviews-block-wrapper {
+  margin-top: -56px;
+  margin-bottom: 0;
+  width: 864px;
+}
+.review-cards {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -30px;
+  margin-bottom: 0;
+}
+.review-card {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 30px;
+  margin-bottom: 0;
+  padding: 11px 23px;
+  background: #ffffff;
+  box-shadow: 4px 4px 8px 5px #e5e5e5;
+}
+.review-card-title {
+  display: flex;
+  align-items: center;
+}
+.reviewer-picture {
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 1px solid #570026;
+}
+.review-card-title-info {
+  margin-left: 14px;
+  margin-right: auto;
+}
+.review-card-title-reviewer-info {
+  margin-bottom: 2px;
+  display: flex;
+}
+.review-name {
+  margin-right: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000000;
+}
+.review-rating {
+  margin-right: 14px;
+}
+.review-date {
+  margin-right: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #433f3f;
+}
+.review-card-title-reviewed-specialist-info {
+  display: flex;
+  align-items: center;
+}
+.reviewed-specialist-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+}
+.reviewed-specialist-picture {
+  margin-left: 15px;
+  margin-right: 0;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 1px solid #570026;
+  box-sizing: border-box;
+}
+.review-card-description {
+  margin-top: 20px;
+  margin-bottom: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #433f3f;
+}
+.reviews-specialists-block-wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 436px;
 }
