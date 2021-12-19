@@ -17,30 +17,30 @@
   <body>
     <header class="header container">
       <div class="header-contacts">
-        <span class="phone-number">Телефон: +7 999 999-99-99</span>
+        <span class="phone-number">Телефон: 8 (918) 369-22-00</span>
         <nav class="header-social-links">
-          <a href="#" class="header-social-link link">
+          <a href="https://web.whatsapp.com" class="header-social-link link">
             <img
               src="img/social-links/light-icons/whatsapp.svg"
               alt="What's App"
               class="social-link-icon"
             />
           </a>
-          <a href="#" class="header-social-link link">
+          <a href="https://web.telegram.org" class="header-social-link link">
             <img
               src="img/social-links/light-icons/telegram.svg"
               alt="Telegram"
               class="social-link-icon"
             />
           </a>
-          <a href="#" class="header-social-link link">
+          <a href="https://instagram.com" class="header-social-link link">
             <img
               src="img/social-links/light-icons/instagram.svg"
               alt="Instagram"
               class="social-link-icon"
             />
           </a>
-          <a href="#" class="header-social-link link">
+          <a href="https://vk.com/im" class="header-social-link link">
             <img
               src="img/social-links/light-icons/vkontakte.svg"
               alt="Vkontakte"
@@ -64,7 +64,7 @@
             <div class="header-link-indicator" style="visibility: visible";></div>
           </div>
           <div class="header-link-field">
-            <a href="/" class="link header-main-link company-logotip">NOGTI</a>
+            <a href="/" class="link header-main-link company-logotip">ЖЕМЧУЖИНА</a>
           </div>
           <div class="header-link-field">
             <a href="/reviews.html" class="link header-link">Отзывы</a>
@@ -92,10 +92,23 @@
             <div class="appointment-caption-wrapper">
               <span class="appointment-caption">Выберите салон</span>
             </div>
-            <div class="appointment-choose-saloon appointment-text">
-              <span class="appointment-choose-saloon-text">г. Краснодар, ул. Красная, д. 123</span>
-              <img src="img\appointment\icons\expand.svg" alt="icon" class="appointment-choose-saloon-icon">
-            </div>
+            <section class="main">
+              <div id="dd" class="appointment-choose-saloon appointment-text wrapper-dropdown" tabindex="1">
+                <span class="appointment-choose-saloon-text" id="chosen_saloon">г. Краснодар, ул. Штормовая 243</span>
+                <ul class="dropdown">
+                  <li class="dropdown-choose" onclick="ChoseFunc(this)" id="saloon1">
+                    <span class="appointment-choose-saloon-text">г. Краснодар, ул. Штормовая 243</span>
+                  </li>
+                  <li class="dropdown-choose" onclick="ChoseFunc(this)" id="saloon2">
+                    <span class="appointment-choose-saloon-text">г. Екатеринбург , ул. Домодедовская 137</span>
+                  </li>
+                  <li class="dropdown-choose" onclick="ChoseFunc(this)" id="saloon3">
+                    <span class="appointment-choose-saloon-text">г. Ростов-на-Дону, ул. Генерала Мышкина 14</span>
+                  </li>
+                </ul>
+                <img src="img\appointment\icons\expand.svg" alt="icon" class="appointment-choose-saloon-icon">
+              </div>
+            </section>
           </div>
           <div class="appointment-block-contacts appointment-block">
             <div class="appointment-caption-wrapper">
@@ -104,7 +117,7 @@
             <div class="appointment-contacts">
               <div class="appointment-contact-group">
                 <img src="img\social-links\dark-icons\whatsapp.svg" alt="whatsapp-icon" class="appointment-contact-icon">
-                <span class="appointment-contact appointment-text">+7 (987) 654-32-10</span>
+                <span class="appointment-contact appointment-text" id="saloon_number">+7 (987) 654-32-10</span>
               </div>
             </div>
           </div>
@@ -151,26 +164,41 @@
           </div>
           <div class="specialists-delim"></div>
           <div class="specialist-minicards">
-            <div class="specialist-minicard">
-              <img src="img/specialists/specialist1.jpg" alt="specialist photo" class="specialist-picture">
+            <div class="specialist-minicard" id="saloon1specialist1">
+              <img src="img/specialists/saloon1specialist1.jpg" alt="specialist photo" class="specialist-picture">
               <div class="specialist-minicard-info">
-                <div class="specialist-name">Анастасия</div>
-                <div class="specialist-reviews">21 отзыв</div>
+                <div class="specialist-name">Марьянова Алина Сергеевна</div>
+                <div class="specialist-reviews">2 отзыва</div>
                 <div class="specialist-rating rating-stars">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
-                  <img src="img/rating-stars/rating-star-unfilled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                </div>
+              </div>
+            </div>
+            <!-- /.specialist-minicard -->
+            <div class="specialist-minicard" id="saloon1specialist2">
+              <img src="img/specialists/saloon1specialist2.jpg" alt="specialist photo" class="specialist-picture">
+              <div class="specialist-minicard-info">
+                <div class="specialist-name">Складская Марина Викторовна</div>
+                <div class="specialist-reviews">3 отзыва</div>
+                <div class="specialist-rating rating-stars">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-unfilled.svg" alt="rating star" class="rating-star">
                 </div>
               </div>
             </div>
             <!-- /.specialist-minicard -->
-            <div class="specialist-minicard">
-              <img src="img/specialists/specialist2.jpg" alt="specialist photo" class="specialist-picture">
+            <div class="specialist-minicard hidden" id="saloon2specialist1">
+              <img src="img/specialists/saloon2specialist1.jpg" alt="specialist photo" class="specialist-picture">
               <div class="specialist-minicard-info">
-                <div class="specialist-name">Анастасия</div>
-                <div class="specialist-reviews">21 отзыв</div>
+                <div class="specialist-name">Маршрутова Татьяна Геннадьевна</div>
+                <div class="specialist-reviews">1 отзыв</div>
                 <div class="specialist-rating rating-stars">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
@@ -181,17 +209,47 @@
               </div>
             </div>
             <!-- /.specialist-minicard -->
-            <div class="specialist-minicard">
-              <img src="img/specialists/specialist3.jpg" alt="specialist photo" class="specialist-picture">
+            <div class="specialist-minicard hidden" id="saloon2specialist2">
+              <img src="img/specialists/saloon2specialist2.jpg" alt="specialist photo" class="specialist-picture">
               <div class="specialist-minicard-info">
-                <div class="specialist-name">Анастасия</div>
-                <div class="specialist-reviews">21 отзыв</div>
+                <div class="specialist-name">Игнатьевна Галина Витальевна</div>
+                <div class="specialist-reviews">1 отзыв</div>
                 <div class="specialist-rating rating-stars">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
                   <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                </div>
+              </div>
+            </div>
+            <!-- /.specialist-minicard -->
+            <div class="specialist-minicard hidden" id="saloon3specialist1">
+              <img src="img/specialists/saloon3specialist1.jpg" alt="specialist photo" class="specialist-picture">
+              <div class="specialist-minicard-info">
+                <div class="specialist-name">Гурьянова Светлана Дмитриевна</div>
+                <div class="specialist-reviews">1 отзыв</div>
+                <div class="specialist-rating rating-stars">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                </div>
+              </div>
+            </div>
+            <!-- /.specialist-minicard -->
+            <div class="specialist-minicard hidden" id="saloon3specialist2">
+              <img src="img/specialists/saloon3specialist2.jpg" alt="specialist photo" class="specialist-picture">
+              <div class="specialist-minicard-info">
+                <div class="specialist-name">Кожевная Марина Денисовна</div>
+                <div class="specialist-reviews">1 отзыв</div>
+                <div class="specialist-rating rating-stars">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-filled.svg" alt="rating star" class="rating-star">
+                  <img src="img/rating-stars/rating-star-unfilled.svg" alt="rating star" class="rating-star">
                 </div>
               </div>
             </div>
@@ -208,35 +266,35 @@
         <div class="about-company">
           <div class="logos">
             <img src="img/logo/logo.svg" alt="Logo" class="logo-icon" />
-            <span class="footer-company-logotip company-logotip">NOGTI</a>
+            <span class="footer-company-logotip company-logotip">жемчужина</a>
           </div>
           <div class="company-info">
-            <span class="company-name">ООО “Nogti”</span>
+            <span class="company-name">ООО “ЖЕМЧУЖИНА”</span>
             <span class="registration-number">ОГРН 1234567890123</span>
           </div>
           <nav class="footer-social-links">
-            <a href="#" class="footer-social-link link">
+            <a href="https://web.whatsapp.com" class="footer-social-link link">
               <img
                 src="img/social-links/dark-icons/whatsapp.svg"
                 alt="What's App"
                 class="social-link-icon"
               />
             </a>
-            <a href="#" class="footer-social-link link">
+            <a href="https://web.telegram.org" class="footer-social-link link">
               <img
                 src="img/social-links/dark-icons/telegram.svg"
                 alt="Telegram"
                 class="social-link-icon"
               />
             </a>
-            <a href="#" class="footer-social-link link">
+            <a href="https://instagram.com" class="footer-social-link link">
               <img
                 src="img/social-links/dark-icons/instagram.svg"
                 alt="Instagram"
                 class="social-link-icon"
               />
             </a>
-            <a href="#" class="footer-social-link link">
+            <a href="https://vk.com/im" class="footer-social-link link">
               <img
                 src="img/social-links/dark-icons/vkontakte.svg"
                 alt="Vkontakte"
@@ -250,10 +308,10 @@
             <span class="footer-nav-title">Продукт</span>
             <div class="footer-nav-delim"></div>
             <nav class="footer-nav-links">
-              <a href="#" class="footer-nav-link link">Салоны</a>
-              <a href="#" class="footer-nav-link link">Мастера</a>
+              <a href="/index.html" class="footer-nav-link link">Главная</a>
+              <a href="/appointment.html" class="footer-nav-link link">Запись</a>
               <a href="/reviews.html" class="footer-nav-link link">Отзывы</a>
-              <a href="#" class="footer-nav-link link">Примеры работ</a>
+              <a href="/about.html" class="footer-nav-link link">О нас</a>
             </nav>
           </div>
           <div class="footer-nav-block">
@@ -269,9 +327,11 @@
       </div>
       <!-- /.footer-main -->
       <div class="footer-licence">
-        <span class="footer-licence-text">© NOGTI 2021</span>
+        <span class="footer-licence-text">© ЖЕМЧУЖИНА 2021-2022</span>
       </div>
     </footer>
     <!-- /.footer -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="js/appointment-scripts.js"></script>
   </body>
 </html>

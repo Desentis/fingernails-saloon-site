@@ -1,5 +1,11 @@
-* {
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 body {
   background-color: #e5e5e5;
@@ -73,7 +79,7 @@ body {
   font-family: Cormorant SC;
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   color: #570026;
 }
 .link {
@@ -458,7 +464,7 @@ body {
 }
 .appointment-choose-saloon {
   padding: 20px 32px;
-  max-width: max-content;
+  max-width: 550px;
   background: #ffffff;
   border: 1px solid #570026;
   border-radius: 5px;
@@ -466,7 +472,8 @@ body {
   align-items: center;
 }
 .appointment-choose-saloon-icon {
-  margin-left: 32px;
+  position: absolute;
+  right: 32px;
 }
 .appointment-contacts {
   margin-left: 32px;
@@ -718,4 +725,78 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   width: 436px;
+}
+
+.wrapper-dropdown {
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown .dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: none;
+  border-bottom: none;
+  list-style: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+  max-height: 0;
+  overflow: hidden;
+}
+
+.wrapper-dropdown .dropdown li {
+  padding: 20px 32px;
+  background: #ffffff;
+  align-items: center;
+  border-top: 1px solid #570026;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown .dropdown li i {
+  color: inherit;
+  vertical-align: middle;
+}
+
+.wrapper-dropdown .dropdown li:hover {
+  background: #f3dfe2;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper-dropdown.active {
+  border-radius: 5px 5px 0 0;
+  background: #f3dfe2;
+  box-shadow: none;
+}
+
+.wrapper-dropdown.active .dropdown {
+  border-left: 1px solid #570026;
+  border-right: 1px solid #570026;
+  border-bottom: 1px solid #570026;
+  max-height: 400px;
+}
+.hidden {
+  display: none;
 }
